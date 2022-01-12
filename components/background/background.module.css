@@ -1,0 +1,10 @@
+@media only screen and (min-width: 320px) {
+    .background_rectangle {
+        position:absolute;
+        width: 201px;
+        height: 313px;
+        left: 0px;
+        top: 0px;
+    }
+}
+
