@@ -1,0 +1,13 @@
+@media only screen and (min-width: 320px) {
+    .small {
+        height: 15px;
+    }
+
+    .medium {
+        height: 20px;
+    }
+
+    .large {
+        height: 30px;
+    }
+}
