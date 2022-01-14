@@ -7,7 +7,7 @@ interface GapProps {
 function Gap(props: GapProps) {
     const { type } = props;
     return (
-        <div className={type == 'small' ? `${styles.small}`: type == 'medium' ? `${styles.medium}` : `${styles.large}`}></div>
+        <div className={type == 'small' ? `${styles.small}`: type == 'medium' ? `${styles.medium}` : type == 'large' ? `${styles.large}` : `${styles.spacer}`}></div>
     )
 }
 

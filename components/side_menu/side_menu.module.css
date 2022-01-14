@@ -1,0 +1,24 @@
+@media only screen and (min-width: 320px) {
+    .container {
+        position: fixed;
+        width: 100%;
+        height: 142px;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        background: linear-gradient(180deg,
+         rgba(119, 111, 196, 0.1) 19.89%,
+         rgba(119, 111, 196, 0) 99.15%),
+         #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .button_menus {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: 20px 40px 20px 40px;
+    }
+}

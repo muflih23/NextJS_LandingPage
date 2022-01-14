@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import styles from '../image_container/image_container.module.css';
 
-function ImgContainer() {
+interface ImageProps {
+    source: string;
+}
+function ImgContainer(props: ImageProps) {
+    const { source } = props
     return (
-        <div>
-            
+        <div className={styles.container}>
+            <img src={source} className={styles.image}/>
         </div>
     )
 }
