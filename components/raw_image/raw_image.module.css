@@ -1,0 +1,14 @@
+@media only screen and (min-width: 320px) {
+    .container {
+        display: flex;
+        max-width: 280px;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        max-height: 280px;
+        max-width: 280px;
+    }
+}

@@ -9,12 +9,9 @@ function HomeContents() {
     <div className='content_container'>
         <Title title='About Us'/>
         <Gap type='large'/>
-        <Text type='reg' text='Spanning from East to West.'/>
-        <Text type='reg' text='With 54,000 km Coastline and 17,500 Islands'/>
+        <Text type='reg' text='Spanning from East to West. With 54,000 km Coastline and 17,500 Islands'/>
         <Gap type="medium"/>
-        <Text type='bold' text='INDONESIA, a resourceful land.'/>
-        <Text type='bold' text='Rich of flavors, natural beauties, and'/>
-        <Text type='bold' text='biodiversity.'/>
+        <Text type='bold' text='INDONESIA, a resourceful land. Rich of flavors, natural beauties, and biodiversity.'/>
         <Gap type="medium"/>
         <Text type='reg' text='62trade.com ready to take important role to empower international trades between Indonesia and the rest of the world'/>
         <Gap type="medium"/>

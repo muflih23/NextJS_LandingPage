@@ -6,6 +6,7 @@
         font-size: 8px;
         line-height: 9.08px;
         color: #FFFFFF;
+        text-align: center;
     }
 
     .tiny_inactive {
@@ -15,6 +16,7 @@
         font-size: 8px;
         line-height: 9.08px;
         color: #3E2E83;
+        text-align: center;
     }
 
     .med {
@@ -24,5 +26,6 @@
         font-size: 14px;
         line-height: 16.1px;
         color: #FFFFFF;
+        text-align: center;
     }
 }

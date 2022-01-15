@@ -6,6 +6,8 @@
         font-size: 15px;
         line-height: 20px;
         color: #8984A1;
+        word-wrap: break-word;
+        white-space: pre-line;
 
     }
 
@@ -16,6 +18,7 @@
         font-size: 15px;
         line-height: 20px;
         color: #776FC4;
+        word-wrap: break-word;
     }
 
     .subtitle {
@@ -25,6 +28,7 @@
         font-size: 15px;
         line-height: 17.25px;
         color: #3E2E83;
+        word-wrap: break-word;
     }
     
 }
