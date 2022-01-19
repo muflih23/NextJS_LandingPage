@@ -1,0 +1,21 @@
+@media only screen and (min-width : 320px ){
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .submitButton {
+        width: 150px;
+        height: 35px;
+        background-color: #776FC4;
+        border-radius: 30px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        color: #ffffff;
+    }
+}

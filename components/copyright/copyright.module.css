@@ -10,3 +10,15 @@
         text-align: center;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .copyright {
+        margin: 0px 45px 0px 44px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .copyright {
+        margin: 0px 45px 0px 44px !important;
+    }
+}

@@ -29,7 +29,7 @@ function SideMenu(props: PropsSection) {
                     </a>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/contact'>
                     <a>
                         <Button 
                         type = {section == 'Contact' ? 'active' : 'inactive' }

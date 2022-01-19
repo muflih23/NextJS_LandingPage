@@ -7,6 +7,7 @@ import ImgContainer from '../image_container/image_container';
 function HomeContents() {
     return (
     <div className='content_container'>
+      <div className='content'>
         <Title title='About Us'/>
         <Gap type='large'/>
         <Text type='reg' text='Spanning from East to West. With 54,000 km Coastline and 17,500 Islands'/>
@@ -18,10 +19,10 @@ function HomeContents() {
         <Text type='reg' text='Ready to be a digital gateway for everyone, at any level of bussiness'/>
         <Gap type="medium"/>
         <Text type='reg' text='Let us walk together, hand in hand for a better future'/>
-        <Gap type="large"/>
-        <div className='row'>
+      </div>
+      <div className='row'>
           <ImgContainer source='/indo_spices.png'/>
-        </div>
+      </div>
       </div>
     )
 }
